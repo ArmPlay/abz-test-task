@@ -141,7 +141,6 @@ export default {
 
             const dataResponse = await response.json();
 
-            console.log(dataResponse)
             if(dataResponse.success) {
                 this.success = true;
             } else {
